@@ -48,3 +48,34 @@
 
 }
 
+
+// Resposividade
+
+@media screen and (max-width: 570px) {
+
+.content{
+    max-width: 400px!important;
+    max-height: 640px!important;
+    img{
+      width: 320px!important;
+    }
+}
+
+}
+
+@media screen and (max-width: 425px) {
+
+  .content{
+      max-width: 300px!important;
+      max-height: 520px!important;
+      img{
+        width: 280px!important;
+      }
+      p{
+        font-size: 16px;
+      }
+  }
+
+  }
+
+
