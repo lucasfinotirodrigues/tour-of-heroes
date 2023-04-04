@@ -9,12 +9,6 @@ import { heroesList } from '../mock-heroes';
 })
 export class HeroesComponent {
 
-
-  hero: Hero = {
-    id: 1,
-    name:'Wolverine'
-  };
-
   // Lista de heróis sendo importados
 
   heroes = heroesList;
